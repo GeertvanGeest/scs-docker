@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scanpy
+pybiomart
+scrublet
+scanorama
+gseapy
+matplotlib-venn

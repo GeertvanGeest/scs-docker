@@ -1,0 +1,6 @@
+install.packages(c('remotes', 'devtools'))
+# remotes::install_github('chris-mcginnis-ucsf/DoubletFinder', dependencies=FALSE)
+install.packages('clustree', dependencies=FALSE)
+remotes::install_github('satijalab/seurat-data', dependencies=FALSE)
+devtools::install_github("immunogenomics/harmony")
+devtools::install_github("powellgenomicslab/scPred")

@@ -7,7 +7,7 @@ The following tags are in this repository:
 - `dgn-rstudio`: rstudio server container for deep learning exercises with access to a gpu
 - `dgn-jupyter`: jupyter notebook container for deep learning exercsies with access to a gpu
 
-### Runnign a jupyter notebook container locally
+### Running a jupyter notebook container locally
 
 ```sh
 docker run --rm -v $PWD:/home/jovyan -p 8888:8888 geertvangeest/single_cell_summerschool:general-jupyter
@@ -22,6 +22,8 @@ Change `$PWD` to any other directory if you do not want to mount your current di
 ```sh
 docker run --rm -v $PWD:/home/rstudio -p 8787:8787 -e PASSWORD=yourpasswordhere geertvangeest/single_cell_summerschool:general-rstudio
 ```
+
+If it is running successfully rstudio server is available at `http://localhost:8787`. 
 
 Your username is **rstudio** and the password is provided by the environment variable PASSWORD (i.e. *yourpasswordhere* in the example). 
 

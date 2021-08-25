@@ -1,0 +1,17 @@
+numpy
+scipy
+pandas
+matplotlib
+pydotplus
+sklearn
+scanpy
+gseapy
+seaborn
+anndata
+torch
+statsmodels
+scvi
+numba
+tables
+leidenalg
+scikit-misc

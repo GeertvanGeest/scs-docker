@@ -7,9 +7,11 @@ libxt6 \
 libgl1-mesa-glx \
 libcurl4-openssl-dev \
 libglpk-dev \
-libxml2-dev
+libxml2-dev \
+libxt-dev \
+libbz2-dev \
+liblzma-dev
 
 COPY install_packages.R ./
 
 RUN Rscript install_packages.R
-

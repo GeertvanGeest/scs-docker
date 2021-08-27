@@ -10,7 +10,7 @@ seaborn
 anndata
 torch
 statsmodels
-scvi
+scvi-tools
 numba
 tables
 leidenalg

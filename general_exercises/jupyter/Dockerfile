@@ -10,14 +10,15 @@ RUN apt-get install -y \
 curl \
 libhdf5-dev \
 gcc \
-g++
+g++ \
+libtool
 
 # change back to notebook user
 USER $NB_UID
 
-COPY requirements.txt .
+# COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+# RUN pip install -r requirements.txt
 
 COPY multiomics-environment.yml .
 
@@ -25,3 +26,6 @@ RUN /opt/conda/bin/conda install -y nb_conda_kernels
 
 RUN /opt/conda/bin/conda env create -f multiomics-environment.yml
 
+COPY scRNAseq2.yml .
+
+RUN /opt/conda/bin/mamba env create -f scRNAseq2.yml

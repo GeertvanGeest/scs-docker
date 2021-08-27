@@ -7,3 +7,6 @@ scrublet
 scanorama
 gseapy
 matplotlib-venn
+mnnpy
+leidenalg
+louvain

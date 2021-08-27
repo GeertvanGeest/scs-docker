@@ -1,6 +1,6 @@
 ## The containers
 
-The following tags are in this repository:
+The following tags are in the docker hub repository at [https://hub.docker.com/r/geertvangeest/single_cell_summerschool](https://hub.docker.com/r/geertvangeest/single_cell_summerschool):
 
 - `general-jupyter`: jupyter notebook container for general exercises in python (using scanpy). It also includes the conda environment for the multi-omics exercises (sc2021-multiomics-environment). Simply change the kernel in the python notebook to use the environment. 
 - `general-rstudio`: rstudio server container for the general exercsies in R. 

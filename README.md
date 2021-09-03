@@ -4,14 +4,14 @@ The following tags are in the docker hub repository at:
 
 [https://hub.docker.com/r/geertvangeest/single_cell_summerschool](https://hub.docker.com/r/geertvangeest/single_cell_summerschool):
 
-For the dockerfiles and other documentation visit:
-
-[https://github.com/GeertvanGeest/scs-docker/](https://github.com/GeertvanGeest/scs-docker/)
-
 - `general-jupyter`: jupyter notebook container for general exercises in python (using scanpy). It also includes the conda environment for the multi-omics exercises (sc2021-multiomics-environment). Simply change the kernel in the python notebook to use the environment. 
 - `general-rstudio`: rstudio server container for the general exercsies in R. 
 - `dgn-rstudio`: rstudio server container for deep learning exercises with access to a gpu
 - `dgn-jupyter`: jupyter notebook container for deep learning exercsies with access to a gpu
+
+For the dockerfiles and other documentation visit:
+
+[https://github.com/GeertvanGeest/scs-docker/](https://github.com/GeertvanGeest/scs-docker/)
 
 ### Running a jupyter notebook container locally
 
